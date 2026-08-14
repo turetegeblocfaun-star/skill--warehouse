@@ -1,0 +1,13 @@
+interface:
+  display_name: 鹏写作
+  short_description: 通过多轮对谈提炼观点，写成没有模型腔的专业中文文章
+  default_prompt: 使用 $peng-writing，先围绕我给出的方向持续对谈、质疑和补充材料，等我明确要求收束后再提炼观点、核验事实并写成标题有真实钩子、专业读者也看不出模型腔的中文文章。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
